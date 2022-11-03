@@ -1,0 +1,123 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(155, 35, 119);
+    background-image: url("gif1.gif");
+    background-size: cover;
+}
+.main-frame{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 750px;
+    border-radius: 10px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.top-frame{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: #4a5297;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-frame img{
+    width: 200px;
+    padding: 10px;
+    margin-top: 4px;
+    margin-right: 4rem;
+    border-radius: 20px;
+}
+
+.name-cont{
+    color: rgba(21, 21, 21, 0.726);
+    text-align: center;
+    padding: 30px;
+}
+
+.name-cont p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.resume , .mail, .linkedin{
+    position: relative;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: red(192, 55, 55);
+    color: black;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.resume:hover , .mail:hover, .linkedin:hover{
+    background-color: black;
+    color: #fff;
+}
+.emp{
+    padding: 10px;
+}
+
+.mid-frame { 
+    color: rgb(14, 12, 1);
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 3%;
+}
+
+.mid-frame p{
+    width: 85%;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.quote{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    margin-top: 30%;
+    padding: 10px;
+    width: 50%;
+    font-size: 1rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.quote img{
+    width: 50px;
+    margin-left: -95%;
+    padding: 10px;
+}
+
+.bottom-frame img{
+    position: relative;
+    width: 15%;
+}
+
+.bottom-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-frame h2{
+    font-size: 1.3rem;
+    padding: 30px;
+}
